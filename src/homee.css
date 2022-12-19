@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 234, 234);
+}
+
+.container {
+    width: 80vw;
+    margin: 5rem 0;
+    max-width: 40rem;
+    background:white;
+    padding: .5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px pink;
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 60vh;
+    text-align: center;
+    column-gap: 2px;
+    background-color: grey;
+    border-radius: 1rem;
+}
+
+.grid-item{
+    background-color: rgb(243, 243, 250);
+    
+}
+
+.home-image{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 0 .5rem .5rem 0;
+    opacity: 0.9;
+    
+}
+
+.home-image:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    object-fit: cover;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1rem;
+    right: 1.7rem;
+   
+}
+
+.record,.ranking,.profile{
+    text-decoration: none;
+    margin: .5rem 0 .5rem 0;
+    align-items: left;
+    
+}
+
+.btn{
+    font-size: 1rem; 
+}
+
+.main-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1.5rem;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.under{
+    background-color: grey;
+    width: 97%;
+    height: 2px;
+}
+
+
+.new-under{
+    background-color: grey;
+    width: 97%;
+    height: 2px;
+    position: relative;
+    top: -3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    
+main {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('./img/photo-1621931650010-d4d18def2f39.webp');
+
+    }
+
+    .container {
+        width: 80vw;
+        margin: 5rem 0;
+        background: white;
+        padding: .5rem;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 5px pink;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100% 0;
+        text-align: center;
+        column-gap: 2px;
+        background-color: grey;
+        border-radius: 1rem;
+    }
+
+
+    .home-image {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 0 .5rem .5rem 0;
+
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 1rem;
+        right: .9rem;
+
+    }
+
+    .record,
+    .ranking,
+    .profile {
+        text-decoration: none;
+        margin: .5rem 0 .5rem 0;
+        align-items: left;
+
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .main-heading {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 1.5rem;
+        font-weight: 200;
+        font-size: 2rem;
+    }
+
+    .under {
+        background-color: grey;
+        width: 97%;
+        height: 2px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    
+    main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/photo-1621931650010-d4d18def2f39.webp');
+
+}
+
+.container {
+    width: 80vw;
+    margin: 5rem 0;
+    background:white;
+    padding: .5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px pink;
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 100% 0;
+    text-align: center;
+    column-gap: 2px;
+    background-color: grey;
+    border-radius: 1rem;
+}
+
+
+.home-image{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 0 .5rem .5rem 0;
+    
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1rem;
+    right: 1.7rem;
+   
+}
+
+.record,.ranking,.profile{
+    text-decoration: none;
+    margin: .5rem 0 .5rem 0;
+    align-items: left;
+    
+}
+
+.btn{
+    font-size: 1rem; 
+}
+
+.main-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1.5rem;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.under{
+    background-color: grey;
+    width: 97%;
+    height: 2px;
+}
+}
+
+
+.header{
+    display: grid;
+    grid-template-columns: 15% 30% 20% 15% 20%;
+}
+
+.value{
+
+display: grid;
+    grid-template-columns: 15% 30% 20% 15% 20%;
+}
